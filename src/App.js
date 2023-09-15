@@ -20,8 +20,8 @@ function App() {
       />
 
       <IdCard
-        lastName="Delores"
-        firstName="Obrien"
+        lastName="O'Brian"
+        firstName="Delores"
         gender="female"
         height={172}
         birth={new Date('1988-05-11')}
