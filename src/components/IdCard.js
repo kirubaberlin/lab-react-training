@@ -1,5 +1,5 @@
 import React from 'react';
-import './IdCard.css'; // Import your CSS file
+import './IdCard.css';
 
 const IdCard = (props) => {
   return (

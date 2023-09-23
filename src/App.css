@@ -54,3 +54,104 @@
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* App.css */
+
+.credit-card {
+  width: 300px;
+  height: 180px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.credit-card .type {
+  font-size: 24px;
+}
+
+.credit-card .number {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.credit-card .expiration {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card .bank {
+  font-size: 14px;
+}
+
+.credit-card .owner {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.driver-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 15px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 500px;
+}
+
+.driver-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.driver-info {
+  flex-grow: 1;
+}
+
+.driver-info h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.driver-rating {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.driver-rating span {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.driver-rating span:last-child {
+  margin-right: 0;
+}
+
+.driver-info p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.driver-info p small {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+
+
+
+
+
